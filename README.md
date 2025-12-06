@@ -27,3 +27,4 @@ aws ecr get-login-password --region us-east-1 | docker login --username AWS --pa
 # Alternate option via PowerShell using AWS Tools
 (Get-ECRLoginCommand).Password | docker login --username AWS --password-stdin aws_account_id.dkr.ecr.us-east-1.amazonaws.com
 ```
+End of file
